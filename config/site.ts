@@ -1,24 +1,24 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Bronson | Sancha",
+  description: "Save the Wedding Date",
   navItems: [
     {
       label: "Home",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Enagement",
+      href: "/enagement",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Wedding Invitation",
+      href: "/wedding_invitation",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Venue Details",
+      href: "/venue",
     },
     {
       label: "About",
@@ -27,36 +27,24 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Enagement",
+      href: "/enagement",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Wedding Invitation",
+      href: "/wedding_invitation",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Venue Details",
+      href: "/venue",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "About",
+      href: "/about",
     },
   ],
   links: {
