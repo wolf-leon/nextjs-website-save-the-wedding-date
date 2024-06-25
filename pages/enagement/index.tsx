@@ -15,6 +15,24 @@ export default function EnagementPage() {
     "/enagement-4.jpg",
     "/enagement-5.jpg",
     "/enagement-6.jpg",
+    "/enagement-7.jpg",
+    "/enagement-8.jpg",
+    "/enagement-9.jpg",
+    "/enagement-10.jpg",
+    "/enagement-11.jpg",
+    "/enagement-12.jpg",
+    "/enagement-13.jpg",
+    "/enagement-14.jpg",
+    "/enagement-15.png",
+    "/enagement-16.jpg",
+    "/enagement-17.jpg",
+    "/enagement-18.jpg",
+    "/enagement-19.jpg",
+    "/enagement-20.jpg",
+    "/enagement-21.jpg",
+    "/enagement-22.jpg",
+    "/enagement-23.jpg",
+
   ];
 
   return (
@@ -45,7 +63,7 @@ export default function EnagementPage() {
           </p>
         </div>
       </section>
-        <ImagesSlider className="h-[40rem] w-full md:w-[30rem] lg:w-[30rem]"  images={images}>
+        <ImagesSlider className="h-[32rem] w-full md:w-[30rem] lg:w-[30rem]"  images={images}>
       <motion.div
         initial={{
           opacity: 0,
