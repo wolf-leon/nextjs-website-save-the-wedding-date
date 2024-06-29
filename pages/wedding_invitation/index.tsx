@@ -31,21 +31,20 @@ export default function WeddingInvitationPage() {
             <p className="text-lg">We,</p>
             <p className="mt-2 text-2xl font-semibold">Bronson D&apos;costa & Sancha D&apos;costa</p>
             <p className="mt-2 text-lg">request the honor of your presence</p>
-            <p className="mt-2 text-lg">at our wedding celebration</p>
+            <p className="mt-2 text-lg">at our wedding celebration on</p>
           </div>
           <div className="mt-6 text-center text-gray-700">
-            <p className="text-lg font-semibold">Sunday, 26th January</p>
-            <p className="text-lg">2025</p>
+            <p className="text-lg font-semibold">Sunday, 26th January 2025</p>
+            <p className="text-lg">at</p>
           </div>
           <div className="mt-6 text-center text-gray-700">
-            <p className="text-lg font-semibold">Church</p>
-            <p className="text-lg">Our Lady of Miracles</p>
-            <p className="text-lg">Sanguem, Goa</p>
+            <p className="text-lg font-semibold">Our Lady of Miracles Church</p>
+            <p className="text-lg font-semibold">Sanguem, Goa</p>
           </div>
           <div className="mt-6 text-center text-gray-700">
-            <p className="text-lg font-semibold">Reception to follow</p>
-            <p className="text-lg">The White House Venue</p>
-            <p className="text-lg">Raia, Goa</p>
+            <p className="text-lg">with Reception Celebrations to follow</p><br></br>
+            <p className="text-lg font-semibold">The White House Venue</p>
+            <p className="text-lg font-semibold">Raia, Goa</p>
           </div>
         </div>
       </section>

@@ -63,7 +63,7 @@ export default function EnagementPage() {
           </p>
         </div>
       </section>
-        <ImagesSlider className="h-[32rem] w-full md:w-[30rem] lg:w-[30rem]"  images={images}>
+        <ImagesSlider className="h-[34rem] w-full md:w-[26rem] lg:w-[26rem]"  images={images}>
       <motion.div
         initial={{
           opacity: 0,
