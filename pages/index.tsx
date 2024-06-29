@@ -85,7 +85,7 @@ export default function IndexPage() {
           />
         </div>
         <div className="w-full md:w-3/4 lg: text-center">
-          <p className="text-2xl leading-relaxed text-gray-700">
+          <p className="text-md md:text-2xl leading-relaxed text-gray-700 ">
           Captured in that moment, their smiles radiate a promise of a future filled with endless joy and shared adventures.In a single frame, their love blooms, a testament to the beauty of two souls intertwined.
           </p>
           <Button
