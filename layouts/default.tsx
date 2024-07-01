@@ -26,7 +26,7 @@ export default function DefaultLayout({
           <Link href="/about" style={{ color: '#333', textDecoration: 'none' }}>About</Link>
         </nav>
         <div className="text-sm">
-          &copy; {new Date().getFullYear()} Leon Menezes. All rights reserved.
+          &copy; {new Date().getFullYear()} Bronson | Sancha. All rights reserved.
         </div>
       </footer>
     </div>

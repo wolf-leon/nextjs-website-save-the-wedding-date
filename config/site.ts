@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Bronson | Sancha",
-  description: "Save the Wedding Date",
+  name: "Bronson | Sancha - Wedding Bliss",
+  description: "Witness the beginning of the joyous union of Bronson and Sancha as they embark on a lifelong journey of love and togetherness.",
   navItems: [
     {
       label: "Home",
