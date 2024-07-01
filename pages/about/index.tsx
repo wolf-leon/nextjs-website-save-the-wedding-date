@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { ImagesSlider } from "@/components/ui/images-slider";
 
-export default function DocsPage() {
+export default function AboutPage() {
 
   const images = [
     "/gallery-1.jpg",
@@ -18,23 +18,35 @@ export default function DocsPage() {
     "/gallery-7.jpg",
     "/gallery-8.jpg",
     "/gallery-9.jpg",
-    "/gallery-10.jpg",
-    "/gallery-11.jpg",
     "/gallery-12.jpg",
-    "/gallery-13.jpg",
     "/gallery-14.jpg",
     "/gallery-15.jpg",
     "/gallery-16.jpg",
-    "/gallery-17.jpg",
     "/gallery-18.jpg",
     "/gallery-19.jpg",
     "/gallery-20.jpg",
-    "/gallery-21.jpg",
     "/gallery-22.jpg",
     "/gallery-23.jpg",
     "/gallery-24.jpg",
     "/gallery-25.jpg",
     "/gallery-26.jpg",
+    "/gallery-11.jpg",
+    "/gallery-13.jpg",
+    "/gallery-21.jpg",
+    "/gallery-28.jpg",
+    "/gallery-29.jpg",
+    "/gallery-30.jpg",
+    "/gallery-31.jpg",
+    "/gallery-32.jpg",
+    "/gallery-33.jpg",
+    "/gallery-34.jpg",
+    "/gallery-35.jpg",
+    "/gallery-36.jpg",
+    "/gallery-37.jpg",
+    "/gallery-17.jpg",
+    "/gallery-27.jpg",
+    "/gallery-10.jpg",
+
   ];
 
   return (
@@ -123,31 +135,22 @@ export default function DocsPage() {
           </div>
           
         </div>
-             {/* Text Section */}
-      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 px-4">
-        <div className="w-full md:w-3/4 lg: text-center">
-          <p className="text-lg leading-relaxed text-gray-700">
-         <strong>We preserve this love in a picture, Creating these memories for ourselves.</strong> 
-          </p>
+            
+         {/* Image Grid Section */}
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 w-full">
+          {images.map((image, index) => (
+            <div key={index} className="flex justify-center">
+              <Image
+                width={300}
+                height={300}
+                alt={`Memories Image ${index + 1}`}
+                src={image}
+                className="rounded-lg shadow-md"
+              />
+            </div>
+          ))}
         </div>
-      </section>
-        <ImagesSlider className="h-[34rem] w-full md:w-[26rem] lg:w-[26rem]"  images={images}>
-      <motion.div
-        initial={{
-          opacity: 0,
-          y: -80,
-        }}
-        animate={{
-          opacity: 1,
-          y: 0,
-        }}
-        transition={{
-          duration: 0.6,
-        }}
-        className="z-50 flex flex-col justify-center items-center"
-      >
-      </motion.div>
-    </ImagesSlider>
+
       </section>
     </DefaultLayout>
   );
