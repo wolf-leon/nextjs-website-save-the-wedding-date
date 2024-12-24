@@ -123,7 +123,7 @@ export default function IndexPage() {
           disableRipple
           className="relative overflow-visible rounded-full hover:-translate-y-1 px-12 shadow-xl bg-pink-500/30 after:content-[''] after:absolute after:rounded-full after:inset-0 after:bg-pink-200/40 after:z-[-1] after:transition after:!duration-500 hover:after:scale-150 hover:after:opacity-0 my-8"
           size="lg"
-          onClick={fireConfetti}
+          onPress={fireConfetti}
         >
         Celebrate with Confetti!
         </Button>

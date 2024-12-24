@@ -81,8 +81,8 @@ export default function EngagementPage() {
           {images.map((image, index) => (
             <div key={index} className="flex justify-center">
               <Image
-                width={420}
-                height={420}
+                width={500}
+                height={500}
                 alt={`Engagement Image ${index + 1}`}
                 src={image}
                 className="items-center justify-center my-8"
