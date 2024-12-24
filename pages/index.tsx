@@ -61,6 +61,37 @@ export default function IndexPage() {
       </section>
       <Divider className="my-4" />
 
+      {/* Section 2 */}
+      <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">
+        <div className="w-full md:w-3/4 lg: text-center my-8">
+          <div
+            className="inline-block px-6 rounded-lg"
+            style={{ background: 'linear-gradient(135deg, #FFF8DC 50%, #FAEBD7 50%)' }}
+          >
+            <h1 className="text-3xl font-bold text-gray-800 font-cursive ">A New Chapter Begins: Our Civil Marriage</h1>
+          </div>
+        </div>
+        <Image
+          isBlurred
+          width={370}
+          src="/sign-1.jpg"
+          alt="Family picture"
+          className="items-center justify-center"
+        />
+      </section>
+      {/* Text Section */}
+      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 px-4">
+        <div className="w-full md:w-3/4 lg: text-center">
+          <p className="text-lg leading-relaxed text-gray-700">
+          On a quiet yet profoundly meaningful day, we stood together to sign the papers that would mark the beginning of our shared journey as a married couple. It wasn&apos;t about the grandeur or a big celebration; it was about the simplicity of love and commitment.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-700 mt-4">
+          With each signature, we felt the weight of our promises, the joy of our union, and the excitement of building a life together. This was our civil marriage—a day that was intimate, official, and deeply personal. It&apos;s a memory we&apos;ll forever cherish, not for its extravagance, but for its authenticity and heartfelt significance.
+          </p>
+        </div>
+      </section>
+      <Divider className="my-4" />
+
 
       {/* New Section with Image and Text */}
       <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">

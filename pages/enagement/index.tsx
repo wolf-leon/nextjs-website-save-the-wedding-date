@@ -26,8 +26,6 @@ export default function EngagementPage() {
     "/enagement-20.jpg",
     "/enagement-18.jpg",
     "/enagement-15.png",
-    "/enagement-22.jpg",
-    "/enagement-23.jpg",
 
   ];
 
@@ -79,19 +77,21 @@ export default function EngagementPage() {
         </section>
 
         {/* Image Grid Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 w-full">
+        <div >
           {images.map((image, index) => (
             <div key={index} className="flex justify-center">
               <Image
-                width={300}
-                height={300}
+                width={420}
+                height={420}
                 alt={`Engagement Image ${index + 1}`}
                 src={image}
-                className="rounded-lg shadow-md"
+                className="items-center justify-center my-8"
               />
             </div>
+            
           ))}
         </div>
+       
       </section>
 
       <Divider className="my-4" />
