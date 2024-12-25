@@ -61,7 +61,7 @@ export default function IndexPage() {
       </section>
       <Divider className="my-4" />
 
-      {/* Section 2 */}
+      {/* Civil Signature Section */}
       <section className="flex flex-col items-center justify-center gap-4 py-2 md:py-2 mb-6 relative">
         <div className="w-full md:w-3/4 lg: text-center my-8">
           <div
@@ -75,7 +75,7 @@ export default function IndexPage() {
           isBlurred
           width={370}
           src="/sign-1.jpg"
-          alt="Family picture"
+          alt="Sign picture"
           className="items-center justify-center"
         />
       </section>
@@ -89,6 +89,22 @@ export default function IndexPage() {
           With each signature, we felt the weight of our promises, the joy of our union, and the excitement of building a life together. This was our civil marriage—a day that was intimate, official, and deeply personal. It&apos;s a memory we&apos;ll forever cherish, not for its extravagance, but for its authenticity and heartfelt significance.
           </p>
         </div>
+
+        {/* Button Section */}
+<div className="flex justify-center items-center mt-6">
+  <a
+    href="/civil-signature"
+    className="px-6 py-3 text-lg font-semibold text-gray-800 rounded-lg"
+    style={{
+      backgroundColor: '#FAEBD7', // Light butterscotch color
+      border: '2px solid #FFF8DC',
+      boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+      textDecoration: 'none', // Ensure no underline
+    }}
+  >
+    Relive the Moments That Made Our Day Special Here
+  </a>
+</div>
       </section>
       <Divider className="my-4" />
 

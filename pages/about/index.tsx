@@ -40,8 +40,8 @@ export default function AboutPage() {
     "/gallery-32.jpg",
     "/gallery-33.jpg",
     "/gallery-34.jpg",
-    "/gallery-35.jpg",
-    "/gallery-36.jpg",
+    // "/gallery-35.jpg",
+    // "/gallery-36.jpg",
     "/gallery-37.jpg",
     "/gallery-17.jpg",
     "/gallery-27.jpg",
@@ -64,7 +64,7 @@ export default function AboutPage() {
           <Image
             isBlurred
             width={250}
-            height={250}
+            // height={250}
             src="/groom.jpg"
             alt="Bronson"
             className="rounded-lg my-6"
@@ -100,7 +100,7 @@ export default function AboutPage() {
           <Image
             isBlurred
             width={250}
-            height={250}
+            // height={250}
             src="/bride.jpg"
             alt="Sancha"
             className="rounded-lg my-6"
@@ -142,7 +142,7 @@ export default function AboutPage() {
             <div key={index} className="flex justify-center">
               <Image
                 width={300}
-                height={300}
+                // height={300}
                 alt={`Memories Image ${index + 1}`}
                 src={image}
                 className="rounded-lg shadow-md"
